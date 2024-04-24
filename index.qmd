@@ -1,0 +1,101 @@
+---
+about:
+  template: trestles
+  id: about-block
+  image: "profile-pic.jpg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ethan-p-martin
+    - icon: envelope
+      text: Email
+      href: "mailto:mail.martin.ethan2002@gmail.com"  
+---
+
+::: {#about-block}
+# Hey there! 
+
+I'm Ethan (he/him) - currently, I'm a graduate student in the Master of Public Health and Master of Social Work dual-degree program at Case Western Reserve University.
+
+
+My website is a great place to learn more about my projects, publications, and education. My email is the best way to contact me – I'm happy to collaborate with and assist other scholars across disciplines!
+:::
+
+# Education
+```{=html}
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Case Western Reserve University
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li>Master of Public Health &mdash; Intensive Research Pathway</li>
+          <li>Master of Social Work  &mdash; Substance Use Disorders and Recovery</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Rochester Institute of Technology
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li>BS Applied Arts and Sciences &mdash; Behavioral Health</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+```
+
+
+# Research Interests
+
+Informed by my experiences with direct service provision in acute psychiatric care, my training and professional work have focused on study design and analysis, especially in health care services and the social sciences. I have a special interest in working with sexual and gender minority populations to address social determinants of health and environmental and policy-level drivers of health inequities. With respect to data analysis, I’m interested in developing and applying techniques in causal mediation analysis and methods for addressing missing data.
+
+# Research Experiences
+
+```{=html}
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+       <b> Population Health and Equity Research Insitute at MetroHealth </b> <br>
+         &nbsp; <em>September 2023 - Present <br>
+         Mentor: Susan De Luca, PhD, MSW</em>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li> Created informative and concise summaries of empirical research on topics related to social driver of health screening and suicide and diabetes in         historically marginalized populations for the group’s use in developing grant applications and publications. </li>
+          <li> Performed statistical analyses for two publications and effectively communicated the results to the study team. </li>
+          <li>Assisted in the planning and development of a novel community-based intervention for Latina mother-daughter dyads, including the development of a grant application. </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <b> Neur Gear, L.L.C. </b> <br>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul>
+          <li> Contributed to an IRB application/trial protocol by researching relevant psychometric information for the study measures and designing participant recruitment processes. </li>
+          <li>Selected psychometric instruments for use in the trial and designed data collection workflows to evaluate the trial outcomes.</li>
+          <li>Conducted a literature review on the use of transauricular ultrasound vagus nerve stimulation for the treatment of anxiety. </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+```
